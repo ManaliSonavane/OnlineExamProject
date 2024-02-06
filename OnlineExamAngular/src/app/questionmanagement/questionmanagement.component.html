@@ -1,0 +1,22 @@
+<html>
+<body>
+    <form>   
+        <input type="text"   name="subject" [(ngModel)]="question.subject"><br><br>
+        
+        <input type="text"  name="qno" [(ngModel)]="question.qno" ><br><br>
+        <input type="text"   name="qtext" [(ngModel)]="question.qtext"><br><br>
+        
+        <br><br>
+          
+        <input  type="text" name="op1" [(ngModel)]="question.op1" ><br><br>
+        <input  type="text" name="op2" [(ngModel)]="question.op2" ><br><br>
+        <input  type="text" name="op3" [(ngModel)]="question.op3" ><br><br>
+        <input  type="text" name="op4" [(ngModel)]="question.op4" ><br><br>
+
+        <input name="answer"  [(ngModel)]="question.answer"><br><br> 
+        
+        <input type="button" value="addQuestion" (click)="saveQuestion()" >   
+    
+    </form>  
+</body>
+</html>

@@ -1,0 +1,125 @@
+/*
+div
+{
+    /*text-align:center;
+    width:fit-content;
+    padding: 15px;
+    margin: auto;  
+}
+
+input:not([type='button']){
+    size:100px;
+    padding:0px;
+    width:300px;
+    font-size: 20px; 
+    margin:0px; 
+}
+
+input:hover{
+   
+    font-size: 17px;
+    /*border-radius: 10px;
+    border-color:black;
+}
+
+input{
+    font-size: 15px;
+}
+
+body{
+    padding:10px;
+    background-color: #f2f2f2;
+   /* text-align:center;  
+    height:250px;
+    font-family:'Times New Roman', Times, serif;
+}
+input[type=button]{
+    background-color: #29d596;
+}
+
+input[type=button]:hover {
+    background-color: #61dc67;
+}
+p{
+    font-size: 20px;
+}*/
+
+
+
+/*input[type=button] {
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color: #45a049;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: rgb(151, 216, 235);
+    padding: 25px;
+    width:fit-content;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  */
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height:fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  .container{
+       display:flex;
+       flex-direction: column;
+       width: 300px;
+       padding: 30px;
+       border: none;
+       background-color: skyblue;
+       border-radius: 5px;
+  }
+  input{
+    margin: 5px 0px;
+    height:35px;
+    padding: 7px;
+  }
+  input[type=button]{
+    height:35px;
+    margin: 5px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color:white;
+  }
+  input[type=button]:hover{
+    background-color: rgb(58, 147, 58);
+    color:black;
+  }
+  p{
+    font-size: 18px;
+}

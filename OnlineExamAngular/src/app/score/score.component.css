@@ -1,0 +1,11 @@
+table,th,td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+th,td{
+    padding:20px
+}
+table{
+   /* margin:auto; */
+    margin-top: 20px;
+}

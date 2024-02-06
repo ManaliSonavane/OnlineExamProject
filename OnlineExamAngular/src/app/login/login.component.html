@@ -1,0 +1,26 @@
+{{message}}
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+    <div class="container">
+<form>
+    <p>Enter Login details:</p>
+    <input name="username" placeholder="username"[(ngModel)]="user.username"><br><br>
+
+    <input type="password" name="password" placeholder="password" [(ngModel)]="user.password"><br><br>
+    
+    Select subject:
+    <select name="subject" [(ngModel)]="subject">
+
+        <option *ngFor="let subjectname of allsubjects" value="{{subjectname}}">{{subjectname}}</option>
+    </select>
+    <br><br>
+
+    <input type="button" (click)="validate()" value="Login">
+
+</form>
+</div>
+</body>
+</html>

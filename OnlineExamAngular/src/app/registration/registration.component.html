@@ -1,0 +1,19 @@
+<html>
+<body>
+    <div class="container">
+<form>
+    <p>Enter Details:</p>
+    <input name="username" placeholder="username" [(ngModel)]="user.username"><br><br>
+
+    <input name="password" type="password" placeholder="password" [(ngModel)]="user.password"><br><br>
+    
+    <input name="mobno" placeholder="Enter phone number" [(ngModel)]="user.mobno"><br><br>
+    
+    <input  name="emailid" placeholder="email" [(ngModel)]="user.emailid"><br><br>
+    
+    <input type="button" (click)="saveUser()" value="Register">
+
+</form>
+</div>
+</body>
+</html>
